@@ -1,0 +1,14 @@
+{
+  "require-dev": {
+    "phpunit/phpunit": "5.5.*",
+    "phpunit/dbunit": ">=1.2"
+  },
+  "require": {
+    "mike/taurus-framework": "v1.0.1rc"
+  },
+  "autoload": {
+    "psr-4": {
+      "legal": "legal"
+    }
+  }
+}
