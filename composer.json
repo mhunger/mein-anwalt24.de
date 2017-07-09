@@ -4,11 +4,11 @@
     "phpunit/dbunit": ">=1.2"
   },
   "require": {
-    "mike/taurus-framework": "v1.0.1rc"
+    "mike/taurus-framework": "v1.0.3rc"
   },
   "autoload": {
     "psr-4": {
-      "legal": "legal"
+      "legaltech\\": "legaltech/"
     }
   }
 }
