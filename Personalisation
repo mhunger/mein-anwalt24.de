@@ -1,0 +1,7 @@
+$ip = "192.168.44.18"
+$host = "legal.dev"
+$app = "legal"
+$mysqlRootPassword = "legal2017"
+$mysqlUser = "legal"
+$mysqlPassword = "legal"
+$mysqlDatabase = "legal"
