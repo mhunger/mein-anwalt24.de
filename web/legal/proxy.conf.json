@@ -1,0 +1,6 @@
+{
+  "/api": {
+    "target": "http://legal.dev",
+    "secure": false
+  }
+}
