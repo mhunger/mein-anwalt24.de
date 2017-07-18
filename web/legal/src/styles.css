@@ -1,2 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
 @import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
+
+.home {
+  background-image: url("assets/court.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  color: #ffffff;
+}

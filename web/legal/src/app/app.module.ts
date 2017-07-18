@@ -7,18 +7,22 @@ import {Router, RouterModule} from '@angular/router';
 import { AppComponent } from './app.component';
 import { CaseFormComponent } from './case-form/case-form.component';
 import { HomeComponent } from './home/home.component';
+import { CaseResultComponent } from './case-result/case-result.component';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     CaseFormComponent,
-    HomeComponent
+    HomeComponent,
+    CaseResultComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule,
+    ReactiveFormsModule,
     RouterModule.forRoot([
       {
         path: 'home',
@@ -32,7 +36,10 @@ import { HomeComponent } from './home/home.component';
         path: '',
         redirectTo: '/home',
         pathMatch: 'full'
-
+      },
+      {
+        path: 'case-result/:id',
+        component: CaseResultComponent
       }
     ])
   ],
