@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup} from "@angular/forms";
 import {Router} from "@angular/router";
-import {LegalCase} from "./case";
+import {LegalCase} from "../model/case";
 
 @Component({
   selector: 'app-case-form',
